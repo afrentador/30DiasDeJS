@@ -1,12 +1,12 @@
 //Ejercicios: Nivel 1
 const now = new Date()
-const year = now.getFullYear() // return year
+/*const year = now.getFullYear() // return year
 const month = now.getMonth() + 1 // return month(0 - 11)
 const date = now.getDate() // return date (1 - 31)
 const hours = now.getHours() // return number (0 - 23)
-const minutes = now.getMinutes() // return number (0 -59)
+const minutes = now.getMinutes() // return number (0 -59)*/
 
-console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
+//console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 
 //R1:Declare la variable firstName, lastName, country, city, age, isMarried, year y asígnele un valor y utilice el operador typeof para comprobar diferentes tipos de datos.
 let firstName = 'Vcitor'
@@ -99,13 +99,19 @@ console.log(!(4 === '4'));
 console.log('dragon'.includes(!('on')));
 console.log('python'.includes(!('on')));
 
-
 //R7:Utilice el objeto Fecha para realizar las siguientes actividades
 
-/*¿Que año es hoy?
-¿Cuál es el mes de hoy en número?
-¿Cuál es la fecha de hoy?
-¿Qué es el día de hoy en número?
-¿Que horario es ahora?
-¿Que minutos hay ahora?
-Descubra el número de segundos transcurridos desde el 1 de enero de 1970 hasta ahora.*/
+//¿Que año es hoy?
+console.log(now.getFullYear());
+//¿Cuál es el mes de hoy en número?
+console.log(now.getMonth());
+//¿Cuál es la fecha de hoy?
+console.log(now.getDate());
+//¿Qué es el día de hoy en número?
+console.log(now.getDay());
+//¿Que horario es ahora?
+console.log(now.getHours());
+//¿Que minutos hay ahora?
+console.log(now.getMinutes());
+//Descubra el número de segundos transcurridos desde el 1 de enero de 1970 hasta ahora.
+console.log(now.getTime());
