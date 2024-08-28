@@ -1,3 +1,4 @@
+console.log('Nivel 3');
 //Ejercicios: Nivel 3
 
 //R1:"El amor es lo mejor que hay en este mundo. Algunos han encontrado el amor y otros todavía lo están buscando". Cuenta la cantidad de palabras " amor " en esta oración.

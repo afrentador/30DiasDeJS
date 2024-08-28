@@ -1,4 +1,6 @@
+console.log('Nivel 1');
 //Ejercicios: Nivel 1
+
 const now = new Date()
 /*const year = now.getFullYear() // return year
 const month = now.getMonth() + 1 // return month(0 - 11)
@@ -9,7 +11,7 @@ const minutes = now.getMinutes() // return number (0 -59)*/
 //console.log(`${date}/${month}/${year} ${hours}:${minutes}`) // 4/1/2020 0:56
 
 //R1:Declare la variable firstName, lastName, country, city, age, isMarried, year y asígnele un valor y utilice el operador typeof para comprobar diferentes tipos de datos.
-let firstName = 'Vcitor'
+let firstName = 'Victor'
 let lastName = 'Mendoza'
 let country = 'Venezuela'
 let city = 'Maracaibo'
