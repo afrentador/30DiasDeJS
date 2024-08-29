@@ -115,7 +115,6 @@ if (myAge2 > yourAge2) {
 */
 
 //R13:Usando el indicador se obtiene el año en que nació el usuario y si el usuario tiene 18 años o más se le permite conducir, de lo contrario se le indica que espere una cierta cantidad de años.
-const year = now.getFullYear() // return year
 //RESUELTO=>
 /*
 let añoDeNacimiento = Number(prompt(`ingresa tu año de nacimiento`))
@@ -145,3 +144,12 @@ console.log(`Has vivido ${añosVividos} segundos de vida`);
 // AAAA-MM-DD HH:mm
 // DD-MM-AAAA HH:mm
 // DD/MM/AAAA HH:mm
+//RESUELTO=>
+let formatoUno = `${year}-${month}-${date} ${hours}:${minutes}`
+console.log(formatoUno);
+
+let formatoDos = `${date}-${month}-${year} ${hours}:${minutes}`
+console.log(formatoDos);
+
+let formatoTres = `${date}/${month}/${year} ${hours}:${minutes}`
+console.log(formatoTres);
